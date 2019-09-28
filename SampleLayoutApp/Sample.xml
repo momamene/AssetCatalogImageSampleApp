@@ -1,6 +1,0 @@
-<UIView backgroundColor="white">
-  <UIImageView
-    center.y="50%"
-    center.x="50%"
-    image="CustomBundle:sample-image" />
-</UIView>
