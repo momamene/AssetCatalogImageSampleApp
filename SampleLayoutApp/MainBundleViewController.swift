@@ -13,6 +13,7 @@ class MainBundleViewController: UIViewController {
         super.viewDidLoad()
 
         let bundle = Bundle.main
+        // NOTE: image is instantiated successfully on any iOS versions (including iOS 11, iOS 12)
         let image = UIImage(named: "sample-image", in: bundle, compatibleWith: nil)
       
         let frame = CGRect(x: 100, y: 100, width: 100, height: 100)
